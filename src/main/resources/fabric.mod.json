@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "buffnowgolems",
+  "version": "${version}",
+
+  "name": "Buffnow Golems",
+  "description": "Turning regular snow golems into war-seeking monsters, vicious for blood and killing.",
+  "authors": [
+    "TheDreamer123"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/buffnow-golems",
+    "sources": "https://github.com/TheDreamer123/Buffnow-Golems",
+    "issues": "https://github.com/TheDreamer123/Buffnow-Golems/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/buffnowgolems/buffnowgolems.png",
+
+  "environment": "*",
+  "mixins": [
+    "buffnowgolems.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.dreamer.buffnow.golems.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "PowderSnowBlockMixin",
+    "SnowGolemEntityMixin"
+  ],
+  "client": [
+    "PowderSnowBlockMixin",
+    "SnowGolemEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
